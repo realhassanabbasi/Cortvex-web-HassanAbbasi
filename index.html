@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CORTVEX — The Agency That Turns Dead Sites Into Digital Machines</title>
+  <meta name="description" content="CORTVEX is a modern digital agency helping outdated and urban businesses transform with stunning websites, AI automation, branding, and social media management." />
+  <meta name="keywords" content="web design agency, website redesign, AI automation, branding, digital transformation, modern website" />
+  <meta property="og:title" content="CORTVEX — Digital Transformation Agency" />
+  <meta property="og:description" content="We turn dead sites into digital machines. Modern websites for businesses ready to grow." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/Brandresources/Logo/logo-with-no-bg.png" />
+
+  <!-- Lenis smooth scroll -->
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+<!-- Scroll progress bar -->
+<div id="scroll-progress"></div>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo" aria-label="CORTVEX Home">
+    <img src="assets/Brandresources/Logo/logo-with-no-bg.png" alt="CORTVEX Logo" />
+    <span class="nav-logo-text">CORTVEX</span>
+  </a>
+
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="#how-we-work">Process</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <a href="contact.html" class="nav-cta" id="nav-cta-btn">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M7 17L17 7M17 7H7M17 7v10"/>
+    </svg>
+    Get Started
+  </a>
+
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile nav overlay -->
+<nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="#how-we-work">Process</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn-primary" style="margin-top:16px;">Get Started</a>
+</nav>
+
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+<section id="hero" aria-label="Hero section">
+  <!-- Background layers -->
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-scanlines" aria-hidden="true"></div>
+  <div class="hero-glow-1" aria-hidden="true"></div>
+  <div class="hero-glow-2" aria-hidden="true"></div>
+
+  <!-- Main content -->
+  <div class="hero-content">
+    <!-- Badge -->
+    <div class="hero-badge" aria-label="Agency status">
+      <span class="hero-badge-dot" aria-hidden="true"></span>
+      Digital Transformation Agency
+    </div>
+
+    <!-- Headline -->
+    <h1 class="hero-headline">
+      The Agency That Turns<br />
+      <span class="accent" id="hero-word-cycle">Dead Sites</span><br />
+      Into Digital Machines
+    </h1>
+
+    <!-- Sub -->
+    <p class="hero-sub">
+      Old website? WordPress nightmare? Losing customers daily?
+      We build modern, high-converting digital experiences for businesses ready to grow.
+    </p>
+
+    <!-- CTA buttons -->
+    <div class="hero-cta-row">
+      <a href="contact.html" class="btn-primary" id="hero-cta-primary">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 17L17 7M17 7H7M17 7v10"/>
+        </svg>
+        Transform My Business
+      </a>
+      <a href="services.html" class="btn-ghost" id="hero-cta-secondary">
+        See Our Services
+      </a>
+    </div>
+  </div>
+
+  <!-- AI Character -->
+  <div class="hero-character-wrap" aria-hidden="true">
+    <div class="char-glow"></div>
+    <img
+      class="char-img"
+      src="assets/Brandresources/BrandCharacter/Front-side-view-of-subject-no-bg-without-pocket.png"
+      alt="CORTVEX AI Character"
+      loading="eager"
+    />
+  </div>
+
+  <!-- Floating tech tags -->
+  <div class="hero-tech-tag hero-tech-tag-1" aria-hidden="true">
+    <span class="tag-dot"></span>
+    AI-Powered Builds
+  </div>
+  <div class="hero-tech-tag hero-tech-tag-2" aria-hidden="true">
+    <span class="tag-dot"></span>
+    Modern &amp; Fast
+  </div>
+  <div class="hero-tech-tag hero-tech-tag-3" aria-hidden="true">
+    <span class="tag-dot"></span>
+    Results-Driven
+  </div>
+
+  <!-- Scroll hint -->
+  <div class="hero-scroll-hint" aria-label="Scroll down">
+    <div class="hero-scroll-mouse" aria-hidden="true"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     SOCIAL PROOF TICKER
+     ============================================================ -->
+<section id="social-proof" aria-label="Statistics and trust indicators">
+  <div class="marquee-track" aria-hidden="true">
+    <!-- Duplicated for seamless loop -->
+    <div class="marquee-item"><strong>100+</strong> Websites Delivered</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Fast</strong> 2–4 Week Turnaround</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>AI-Powered</strong> Automation Ready</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Zero</strong> Generic Templates</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Full</strong> Brand Identity Included</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Mobile-First</strong> Always</div>
+    <span class="marquee-sep"></span>
+    <!-- Duplicate -->
+    <div class="marquee-item"><strong>100+</strong> Websites Delivered</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Fast</strong> 2–4 Week Turnaround</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>AI-Powered</strong> Automation Ready</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Zero</strong> Generic Templates</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Full</strong> Brand Identity Included</div>
+    <span class="marquee-sep"></span>
+    <div class="marquee-item"><strong>Mobile-First</strong> Always</div>
+    <span class="marquee-sep"></span>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROBLEM STATEMENT — HORIZONTAL SCROLL
+     ============================================================ -->
+<section id="problem" aria-labelledby="problem-heading">
+  <div class="problem-header">
+    <div class="section-tag fade-up">The Problem</div>
+    <h2 id="problem-heading" class="fade-up fade-up-delay-1">
+      Your Business Deserves<br />Better Than This
+    </h2>
+    <p class="fade-up fade-up-delay-2">
+      Most small businesses are invisible online — not because they're bad,
+      but because their digital presence is stuck in 2010.
+    </p>
+  </div>
+
+  <div class="h-scroll-outer">
+    <div class="h-scroll-track" role="list" aria-label="Common business problems">
+
+      <!-- Card 1 -->
+      <article class="problem-card" role="listitem">
+        <div class="problem-card-num">01</div>
+        <div class="problem-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <h3>Outdated WordPress Website</h3>
+        <p>Slow, insecure, hard to update. Visitors leave within seconds. You're losing business every day you keep it.</p>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="problem-card" role="listitem">
+        <div class="problem-card-num">02</div>
+        <div class="problem-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h3>No Online Presence At All</h3>
+        <p>You have a real business, real customers — but no digital footprint. Invisible to everyone searching for your services.</p>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="problem-card" role="listitem">
+        <div class="problem-card-num">03</div>
+        <div class="problem-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>Competitors Are Winning</h3>
+        <p>While you're standing still, competitors with modern sites and social media are capturing every customer you're missing.</p>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="problem-card" role="listitem">
+        <div class="problem-card-num">04</div>
+        <div class="problem-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>No Brand Identity</h3>
+        <p>Generic logo, inconsistent colors, no message. Customers can't trust what they can't recognize. Brand is everything.</p>
+      </article>
+
+      <!-- Solution card -->
+      <article class="problem-card card-solution" role="listitem">
+        <div>
+          <div class="section-tag">The Solution</div>
+          <h3>Enter CORTVEX</h3>
+          <p style="font-size:14px; color:var(--text-secondary); line-height:1.7; margin-top:12px;">
+            We diagnose, design, and deploy your complete digital presence — website, brand, automation — in weeks, not months.
+          </p>
+        </div>
+        <a href="services.html" class="card-solution-arrow" aria-label="See our services">
+          <svg viewBox="0 0 24 24" stroke="white" fill="none" stroke-width="2" stroke-linecap="round">
+            <path d="M7 17L17 7M17 7H7M17 7v10"/>
+          </svg>
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES — HORIZONTAL SCROLL
+     ============================================================ -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="services-header container">
+    <div class="services-header-text">
+      <div class="section-tag fade-up">What We Do</div>
+      <h2 id="services-heading" class="fade-up fade-up-delay-1">Services That<br />Move Businesses Forward</h2>
+      <p class="fade-up fade-up-delay-2">Everything you need to go from invisible to unstoppable.</p>
+    </div>
+    <a href="services.html" class="btn-ghost fade-up fade-up-delay-3">
+      All Services
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+
+  <div class="h-scroll-outer">
+    <div class="h-scroll-track" role="list" aria-label="CORTVEX services">
+
+      <!-- Service 1: Web Dev -->
+      <article class="service-card" role="listitem" id="service-web">
+        <div class="service-card-bg" aria-hidden="true"></div>
+        <div class="service-icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/><path d="M7 8l-2 2 2 2M17 8l2 2-2 2M13 7l-2 6"/>
+          </svg>
+        </div>
+        <h3>Website Design &amp;<br/>Development</h3>
+        <p>Custom, blazing-fast, conversion-focused websites. No templates. No WordPress. Pure code built to win.</p>
+        <div class="service-tags" aria-label="Technologies">
+          <span class="service-tag">Custom Code</span>
+          <span class="service-tag">Mobile-First</span>
+          <span class="service-tag">SEO-Ready</span>
+          <span class="service-tag">Fast Load</span>
+        </div>
+        <div class="service-anim-lines" aria-hidden="true">
+          <svg viewBox="0 0 120 120" fill="none">
+            <line x1="0" y1="120" x2="120" y2="0" stroke="#6600ff" stroke-width="0.8"/>
+            <line x1="30" y1="120" x2="120" y2="30" stroke="#6600ff" stroke-width="0.6"/>
+            <line x1="60" y1="120" x2="120" y2="60" stroke="#6600ff" stroke-width="0.4"/>
+          </svg>
+        </div>
+      </article>
+
+      <!-- Service 2: Branding -->
+      <article class="service-card" role="listitem" id="service-brand">
+        <div class="service-card-bg" aria-hidden="true"></div>
+        <div class="service-icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <h3>Branding &amp;<br/>Visual Identity</h3>
+        <p>Logo, color palette, typography, brand guide — everything that makes your business instantly recognizable and trusted.</p>
+        <div class="service-tags" aria-label="Deliverables">
+          <span class="service-tag">Logo Design</span>
+          <span class="service-tag">Brand Guide</span>
+          <span class="service-tag">Color System</span>
+          <span class="service-tag">Typography</span>
+        </div>
+        <div class="service-anim-lines" aria-hidden="true">
+          <svg viewBox="0 0 120 120" fill="none">
+            <circle cx="80" cy="40" r="50" stroke="#6600ff" stroke-width="0.8" stroke-dasharray="4 4"/>
+            <circle cx="80" cy="40" r="30" stroke="#6600ff" stroke-width="0.5" stroke-dasharray="2 6"/>
+          </svg>
+        </div>
+      </article>
+
+      <!-- Service 3: AI Chatbots -->
+      <article class="service-card" role="listitem" id="service-ai">
+        <div class="service-card-bg" aria-hidden="true"></div>
+        <div class="service-icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
+            <circle cx="9" cy="13" r="1" fill="currentColor"/><circle cx="15" cy="13" r="1" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>AI Automation &amp;<br/>Chatbots</h3>
+        <p>24/7 customer service, lead capture, and appointment booking — all automated. Let AI handle the repetitive work while you scale.</p>
+        <div class="service-tags" aria-label="Technologies">
+          <span class="service-tag">AI Chatbot</span>
+          <span class="service-tag">Lead Capture</span>
+          <span class="service-tag">Auto Reply</span>
+          <span class="service-tag">CRM Ready</span>
+        </div>
+        <div class="service-anim-lines" aria-hidden="true">
+          <svg viewBox="0 0 120 120" fill="none">
+            <path d="M20 120 Q60 60 120 20" stroke="#6600ff" stroke-width="0.8"/>
+            <path d="M40 120 Q80 60 120 40" stroke="#6600ff" stroke-width="0.6"/>
+          </svg>
+        </div>
+      </article>
+
+      <!-- Service 4: Social Media -->
+      <article class="service-card" role="listitem" id="service-social">
+        <div class="service-card-bg" aria-hidden="true"></div>
+        <div class="service-icon-wrap" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+        </div>
+        <h3>Social Media<br/>Management</h3>
+        <p>Consistent, engaging content that builds authority and drives followers to become paying customers — done for you, every week.</p>
+        <div class="service-tags" aria-label="Platforms">
+          <span class="service-tag">Instagram</span>
+          <span class="service-tag">LinkedIn</span>
+          <span class="service-tag">TikTok</span>
+          <span class="service-tag">Strategy</span>
+        </div>
+        <div class="service-anim-lines" aria-hidden="true">
+          <svg viewBox="0 0 120 120" fill="none">
+            <rect x="30" y="30" width="60" height="60" rx="8" stroke="#6600ff" stroke-width="0.8" stroke-dasharray="3 4"/>
+            <rect x="15" y="15" width="90" height="90" rx="12" stroke="#6600ff" stroke-width="0.4" stroke-dasharray="2 8"/>
+          </svg>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HOW WE WORK
+     ============================================================ -->
+<section id="how-we-work" aria-labelledby="process-heading">
+  <div class="container">
+    <div class="how-header">
+      <div class="section-tag fade-up">Our Process</div>
+      <h2 id="process-heading" class="fade-up fade-up-delay-1">How We Work</h2>
+      <p class="fade-up fade-up-delay-2">Three steps from initial call to launched website. Fast, clear, professional.</p>
+    </div>
+
+    <div class="how-steps">
+      <!-- Step 1 -->
+      <div class="how-step fade-up" id="step-1">
+        <div class="how-step-num" aria-hidden="true">01</div>
+        <h3>Discovery Call</h3>
+        <p>We learn your business, your goals, and your customers. 30 minutes that sets the foundation for everything.</p>
+      </div>
+
+      <div class="how-connector" aria-hidden="true">
+        <div class="how-connector-line"></div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="how-step fade-up fade-up-delay-1" id="step-2">
+        <div class="how-step-num" aria-hidden="true">02</div>
+        <h3>Design &amp; Build</h3>
+        <p>Our team designs and develops your complete digital presence. You see progress, give feedback, and approve everything.</p>
+      </div>
+
+      <div class="how-connector" aria-hidden="true">
+        <div class="how-connector-line"></div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="how-step fade-up fade-up-delay-2" id="step-3">
+        <div class="how-step-num" aria-hidden="true">03</div>
+        <h3>Launch &amp; Grow</h3>
+        <p>We launch your site, train your team, and provide ongoing support. Your business is now ready to win online.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA STRIP
+     ============================================================ -->
+<section id="cta-strip" aria-labelledby="cta-heading">
+  <div class="cta-glow" aria-hidden="true"></div>
+  <div class="cta-strip-inner">
+    <div class="section-tag fade-up" style="justify-content:center;">
+      Ready to Upgrade?
+    </div>
+    <h2 id="cta-heading" class="fade-up fade-up-delay-1">
+      Stop Losing Customers<br />to an Outdated Website
+    </h2>
+    <p class="fade-up fade-up-delay-2">
+      Tell us your website URL — we'll show you exactly what's broken and how to fix it. No cost, no commitment.
+    </p>
+    <form class="cta-form fade-up fade-up-delay-3" id="cta-quick-form" novalidate>
+      <input
+        type="email"
+        class="cta-input"
+        id="cta-email-input"
+        placeholder="Enter your email address"
+        autocomplete="email"
+        aria-label="Email address"
+        required
+      />
+      <button type="submit" class="btn-primary" id="cta-submit-btn">
+        Get Free Audit
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </button>
+    </form>
+    <p style="font-size:12px; color:var(--text-muted); margin-top:14px;">
+      Free website audit · No spam · Reply within 24 hours
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img src="assets/Brandresources/Logo/logo-with-no-bg.png" alt="CORTVEX" class="footer-logo" />
+        <p>We turn outdated, invisible businesses into modern digital brands that attract, engage, and convert.</p>
+      </div>
+
+      <!-- Quick links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="#how-we-work">Process</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#service-web">Web Development</a></li>
+          <li><a href="services.html#service-brand">Branding</a></li>
+          <li><a href="services.html#service-ai">AI Automation</a></li>
+          <li><a href="services.html#service-social">Social Media</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 CORTVEX. All rights reserved.</p>
+      <div class="footer-socials" aria-label="Social media links">
+        <!-- Instagram -->
+        <a href="#" aria-label="Instagram">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+          </svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="#" aria-label="LinkedIn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+        <!-- Twitter / X -->
+        <a href="#" aria-label="Twitter">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+<script src="js/hero.js"></script>
+<script>
+  // Quick CTA form handler
+  document.getElementById('cta-quick-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const emailInput = document.getElementById('cta-email-input');
+    const btn = document.getElementById('cta-submit-btn');
+    if (emailInput.value && emailInput.validity.valid) {
+      btn.textContent = 'Sent! ✓';
+      btn.style.background = '#059669';
+      emailInput.value = '';
+      setTimeout(() => {
+        btn.textContent = 'Get Free Audit →';
+        btn.style.background = '';
+      }, 3000);
+    }
+  });
+</script>
+
+</body>
+</html>
