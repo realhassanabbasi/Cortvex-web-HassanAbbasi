@@ -250,6 +250,49 @@
 </section>
 
 <!-- ============================================================
+     ABOUT SECTION (CANVA EMBED & BRAND PHILOSOPHY)
+     ============================================================ -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-header text-center">
+      <div class="section-tag fade-up">About Us</div>
+      <h2 id="about-heading" class="fade-up fade-up-delay-1">Our Core Standard</h2>
+      <p class="fade-up fade-up-delay-2" style="max-width: 600px; margin: 0 auto 40px; color: var(--text-secondary); text-align: center;">
+        We believe the future belongs to businesses that build modern, fast, and sustainable digital solutions. Here is our visual brand manifesto.
+      </p>
+    </div>
+
+    <!-- Toggle Buttons -->
+    <div class="about-toggle-row fade-up fade-up-delay-3" style="display: flex; justify-content: center; gap: 16px; margin-bottom: 40px;">
+      <button class="about-toggle-btn active" id="about-btn-canva" aria-label="Show interactive Canva presentation">Interactive Presentation</button>
+      <button class="about-toggle-btn" id="about-btn-svg" aria-label="Show vector SVG layout">High-Res Design (SVG)</button>
+    </div>
+
+    <!-- Canva Version -->
+    <div class="about-view-container about-view-canva fade-up fade-up-delay-4" id="about-container-canva" style="max-width: 800px; margin: 0 auto; display: block;">
+      <div style="position: relative; width: 100%; height: 0; padding-top: 325.1098%;
+       padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+       border-radius: 8px; will-change: transform;">
+        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+          src="https://www.canva.com/design/DAHNwhpviAk/csCXQgiIwbrO0me-yJZ1aA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+      </div>
+      <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHNwhpviAk&#x2F;csCXQgiIwbrO0me-yJZ1aA&#x2F;view?utm_content=DAHNwhpviAk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener" style="font-size: 14px; font-weight: 500; color: var(--brand-purple-light); text-decoration: none; transition: color var(--duration-base);">The Future Belongs to Companies that Build Sustainable</a> by HaSsan AbbaSi
+    </div>
+
+    <!-- SVG Version -->
+    <div class="about-view-container about-view-svg fade-up fade-up-delay-4" id="about-container-svg" style="max-width: 800px; margin: 0 auto; display: none;">
+      <div style="box-shadow: 0 4px 30px rgba(102,0,255,0.15); overflow: hidden; border-radius: 20px; border: 1px solid var(--border-purple); background: var(--bg-card);">
+        <img src="assets/Brandwebresources/AboutSectionPageDesign.svg" alt="About Section Page Design by Hassan Abbasi" style="width: 100%; height: auto; display: block;" loading="lazy" />
+      </div>
+      <div style="margin-top: 20px; text-align: center;">
+        <span style="font-size: 14px; color: var(--text-muted);">Vector SVG Layout: "The Future Belongs to Companies that Build Sustainable"</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
      SERVICES — HORIZONTAL SCROLL
      ============================================================ -->
 <section id="services" aria-labelledby="services-heading">
@@ -539,6 +582,30 @@
       }, 3000);
     }
   });
+
+  // About Toggle View Handler
+  const btnCanva = document.getElementById('about-btn-canva');
+  const btnSvg = document.getElementById('about-btn-svg');
+  const containerCanva = document.getElementById('about-container-canva');
+  const containerSvg = document.getElementById('about-container-svg');
+
+  if (btnCanva && btnSvg && containerCanva && containerSvg) {
+    btnCanva.addEventListener('click', () => {
+      btnCanva.classList.add('active');
+      btnSvg.classList.remove('active');
+      containerCanva.style.display = 'block';
+      containerSvg.style.display = 'none';
+      if (window.lenis) window.lenis.resize();
+    });
+
+    btnSvg.addEventListener('click', () => {
+      btnSvg.classList.add('active');
+      btnCanva.classList.remove('active');
+      containerSvg.style.display = 'block';
+      containerCanva.style.display = 'none';
+      if (window.lenis) window.lenis.resize();
+    });
+  }
 </script>
 
 </body>
