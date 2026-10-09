@@ -1,1 +1,98 @@
-IyBDT1JUVkVYIOKAlCBEaWdpdGFsIEFnZW5jeSBXZWJzaXRlCgpBIGhhbmQtYnVpbHQsIG11bHRpLXBhZ2Ugc3RhdGljIHdlYnNpdGUgZm9yICoqQ09SVFZFWCoqLCBhIGZpY3Rpb25hbCBkaWdpdGFsIGFnZW5jeSB0aGF0IGRlc2lnbnMgYW5kIGJ1aWxkcyBtb2Rlcm4sIGhpZ2gtY29udmVydGluZyB3ZWJzaXRlcywgYnJhbmRzLCBBSSBhdXRvbWF0aW9uLCBhbmQgc29jaWFsIG1lZGlhIG1hbmFnZW1lbnQgZm9yIGJ1c2luZXNzZXMuCgpUaGlzIHByb2plY3Qgd2FzIGNyZWF0ZWQgdG8gcHJhY3RpY2UgcmVhbC13b3JsZCBhZ2VuY3kgd2ViIGRlc2lnbjogcmVzcG9uc2l2ZSBsYXlvdXRzLCBzbW9vdGggc2Nyb2xsIG1vdGlvbiwgc2Nyb2xsLXRyaWdnZXJlZCBhbmltYXRpb25zLCBhbiBpbnRlcmFjdGl2ZSBhbmltYXRlZCBoZXJvLCBhbmQgY29udmVyc2lvbi1mb2N1c2VkIHBhZ2Ugc3RydWN0dXJlIOKAlCBhbGwgd2l0aCBwbGFpbiBIVE1MLCBDU1MsIGFuZCB2YW5pbGxhIEphdmFTY3JpcHQgKG5vIGZyYW1ld29ya3MpLgoKIyMg4pyoIEZlYXR1cmVzCgotICoqTXVsdGktcGFnZSBzaXRlKiog4oCUIEhvbWUgKGBpbmRleC5odG1sYCksIFNlcnZpY2VzIChgc2VydmljZXMuaHRtbGApLCBhbmQgQ29udGFjdCAoYGNvbnRhY3QuaHRtbGApLCB3aXRoIGEgc2hhcmVkIG5hdmJhciwgbW9iaWxlIG1lbnUsIGFuZCBmb290ZXIgYWNyb3NzIGFsbCBwYWdlcy4KLSAqKkludGVyYWN0aXZlIGFuaW1hdGVkIGhlcm8qKiDigJQgdGhlIGJyYW5kIGNoYXJhY3RlciBpbWFnZSB0aWx0cyBpbiAzRCBmb2xsb3dpbmcgdGhlIG1vdXNlIChsZXJwZWQgZm9yIHNtb290aG5lc3MpLCBmbG9hdGluZyBjYW52YXMgcGFydGljbGVzIHJlbmRlciBiZWhpbmQgaXQsIGFuZCBhIHJvdGF0aW5nIHdvcmQtY3ljbGVyIGhlYWRsaW5lIGtlZXBzIHRoZSBoZXJvIGFsaXZlLgotICoqQnV0dGVyeSBzbW9vdGggc2Nyb2xsaW5nKiog4oCUIExlbmlzIHNtb290aC1zY3JvbGwgKGxvYWRlZCB2aWEgQ0ROKSB3aXRoIGEgY3VzdG9tIGVhc2luZyBjdXJ2ZS4KLSAqKlNjcm9sbC10cmlnZ2VyZWQgYW5pbWF0aW9ucyoqIOKAlCBJbnRlcnNlY3Rpb25PYnNlcnZlci1wb3dlcmVkIGZhZGUtdXAgcmV2ZWFscyB3aXRoIHN0YWdnZXJlZCBkZWxheXMgb24gZXZlcnkgc2VjdGlvbi4KLSAqKlNjcm9sbCBwcm9ncmVzcyBiYXIqKiDigJQgdGhpbiBwcm9ncmVzcyBpbmRpY2F0b3IgYXQgdGhlIHRvcCBvZiBldmVyeSBwYWdlLgotICoqTW9iaWxlIHJlc3BvbnNpdmUqKiDigJQgaGFtYnVyZ2VyIG1lbnUgd2l0aCBhIHNsaWRlLWluIG1vYmlsZSBuYXY7IG1vYmlsZS1maXJzdCBsYXlvdXRzIHRocm91Z2hvdXQuCi0gKipEcmFnLXRvLXNjcm9sbCBzZWN0aW9ucyoqIOKAlCBob3Jpem9udGFsIGRyYWcgc2Nyb2xsaW5nIG9uIHNlbGVjdGVkIGNvbnRlbnQgc3RyaXBzLgotICoqQ29udmVyc2lvbiBzZWN0aW9ucyoqIOKAlCBwcm9ibGVtL2FnaXRhdGUgaGVybywgc29jaWFsLXByb29mIHN0YXRzLCBzZXJ2aWNlcyBvdmVydmlldywgIkhvdyBXZSBXb3JrIiBwcm9jZXNzIHNlY3Rpb24sIGFuZCBhIHF1aWNrIENUQSBlbWFpbCBmb3JtIG9uIHRoZSBob21lcGFnZS4KLSAqKkJlZm9yZSAvIEFmdGVyIGNvbXBhcmlzb24qKiDigJQgU2VydmljZXMgcGFnZSBzaG93cyBhICJCZWZvcmUgdnMgQWZ0ZXIgQ09SVFZFWCIgdHJhbnNmb3JtYXRpb24gdGFibGUuCi0gKipEZXRhaWxlZCBzZXJ2aWNlIGNhcmRzKiog4oCUIGZvdXIgZnVsbCBzZXJ2aWNlIGJyZWFrZG93bnMgKFdlYiBEZXNpZ24gJiBEZXZlbG9wbWVudCwgQnJhbmRpbmcgJiBWaXN1YWwgSWRlbnRpdHksIEFJIEF1dG9tYXRpb24gJiBDaGF0Ym90cywgU29jaWFsIE1lZGlhIE1hbmFnZW1lbnQpLCBlYWNoIHdpdGggYSBmZWF0dXJlIGxpc3QgYW5kIGJhZGdlLgotICoqRnVsbCBjb250YWN0IGZvcm0qKiDigJQgbmFtZSwgZW1haWwsIGJ1c2luZXNzIG5hbWUsIGJ1c2luZXNzLXR5cGUgZHJvcGRvd24sIHNlcnZpY2UgZHJvcGRvd24sIG1lc3NhZ2UgdGV4dGFyZWEsIHBsdXMgaW5mbyBjYXJkcyAoZW1haWwsIHJlc3BvbnNlIHRpbWUsIGxvY2F0aW9uLCBzb2NpYWxzKSBhbmQgYSAiV2hhdCBoYXBwZW5zIG5leHQiIHNlY3Rpb24uCi0gKipBY2Nlc3NpYmlsaXR5IGJhc2ljcyoqIOKAlCBzZW1hbnRpYyBIVE1MNSwgYGFyaWEtbGFiZWxgIC8gYGFyaWEtbGFiZWxsZWRieWAgbGFuZG1hcmtzLCBzY3JlZW4tcmVhZGVyLW9ubHkgdGV4dCwga2V5Ym9hcmQtZm9jdXNhYmxlIG1vYmlsZSBtZW51LCBhbmQgYGFsdGAgdGV4dCBvbiBldmVyeSBpbWFnZS4KLSAqKlNFTyBiYXNpY3MqKiDigJQgdW5pcXVlIGA8dGl0bGU+YCBhbmQgYDxtZXRhIG5hbWU9ImRlc2NyaXB0aW9uIj5gIHBlciBwYWdlLCBmYXZpY29uLCBhbmQgc2VtYW50aWMgaGVhZGluZyBzdHJ1Y3R1cmUuCi0gKipCcmFuZCBhc3NldHMgaW5jbHVkZWQqKiDigJQgY3VzdG9tIGxvZ28sIGJyYW5kIGNoYXJhY3RlciByZW5kZXJzLCB0aGUgTW9rb3RvIGRpc3BsYXkgZm9udCwgYSBicmFuZCBndWlkZWxpbmUgYm9vayAoUERGKSwgYW5kIFVJIGluc3BpcmF0aW9uIHJlZmVyZW5jZXMuCi0gKipJbmxpbmUgU1ZHIGljb25vZ3JhcGh5Kiog4oCUIGN1c3RvbSBsaW5lIGljb25zIGZvciBldmVyeSBzZXJ2aWNlIGNhcmQgYW5kIHNvY2lhbCBsaW5rOyBubyBpY29uLWZvbnQgZGVwZW5kZW5jeS4KCiMjIPCfm6AgVGVjaCBTdGFjawoKLSAqKkhUTUw1Kiog4oCUIHNlbWFudGljIHN0cnVjdHVyZSwgMyBwYWdlcwotICoqQ1NTMyoqIOKAlCBjdXN0b20gc3R5bGVzaGVldHMgKHNoYXJlZCBgc3R5bGUuY3NzYCArIG9uZSBwZXIgcGFnZTogYGhvbWUuY3NzYCwgYHNlcnZpY2VzLmNzc2AsIGBjb250YWN0LmNzc2ApOyBmbGV4Ym94L2dyaWQsIENTUyBhbmltYXRpb25zLCBjdXN0b20gcHJvcGVydGllcwotICoqVmFuaWxsYSBKYXZhU2NyaXB0IChFUzYpKiog4oCUIGBqcy9tYWluLmpzYCAoTGVuaXMsIG5hdmJhciwgc2Nyb2xsIHByb2dyZXNzLCBmYWRlLWlucywgbW9iaWxlIG5hdiwgZHJhZy1zY3JvbGwpIGFuZCBganMvaGVyby5qc2AgKDNEIHRpbHQgKyBjYW52YXMgcGFydGljbGVzKQotICoqTGVuaXMqKiAoQ0ROKSDigJQgc21vb3RoIHNjcm9sbGluZzogYEBzdHVkaW8tZnJlaWdodC9sZW5pc0AxLjAuNDJgCi0gKipCcmFuZCBhc3NldHMqKiDigJQgY3VzdG9tIFBORyBsb2dvLCBicmFuZCBjaGFyYWN0ZXIgYXJ0LCBNb2tvdG8gYC50dGZgIGRpc3BsYXkgZm9udAoKTm8gYnVpbGQgc3RlcCwgbm8gZGVwZW5kZW5jaWVzIHRvIGluc3RhbGwuCgojIyDwn5OBIFByb2plY3QgU3RydWN0dXJlCgpgYGAKQ29ydHZleC13ZWItSGFzc2FuQWJiYXNpLwrilJzilIDilIAgaW5kZXguaHRtbCAgICAgICAgICAgICAgICAgICMgSG9tZXBhZ2Ug4oCUIGhlcm8sIHNvY2lhbCBwcm9vZiwgcHJvYmxlbSwgYWJvdXQsCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjICAgc2VydmljZXMgb3ZlcnZpZXcsIHByb2Nlc3MsIENUQSBzdHJpcArilJzilIDilIAgc2VydmljZXMuaHRtbCAgICAgICAgICAgICAgICMgU2VydmljZXMg4oCUIDQgZGV0YWlsZWQgc2VydmljZSBjYXJkcywK4pSCICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgICBiZWZvcmUvYWZ0ZXIgY29tcGFyaXNvbiwgQ1RBCuKUnOKUgOKUgCBjb250YWN0Lmh0bWwgICAgICAgICAgICAgICAgIyBDb250YWN0IOKAlCBjb250YWN0IGZvcm0sIGluZm8gY2FyZHMsIG5leHQtc3RlcHMK4pSc4pSA4pSAIGNzcy8K4pSCICAg4pSc4pSA4pSAIHN0eWxlLmNzcyAgICAgICAgICAgICAgICMgU2hhcmVkIHN0eWxlczogbmF2YmFyLCBmb290ZXIsIGJ1dHRvbnMsIHV0aWxpdGllcwrilIIgICDilJzilIDilIAgaG9tZS5jc3MgICAgICAgICAgICAgICAgIyBIb21lcGFnZS1zcGVjaWZpYyBzdHlsZXMK4pSCICAg4pSc4pSA4pSAIHNlcnZpY2VzLmNzcyAgICAgICAgICAgICMgU2VydmljZXMtcGFnZSBzdHlsZXMK4pSCICAg4pSU4pSA4pSAIGNvbnRhY3QuY3NzICAgICAgICAgICAgICMgQ29udGFjdC1wYWdlIHN0eWxlcwrilJzilIDilIAganMvCuKUgiAgIOKUnOKUgOKUgCBtYWluLmpzICAgICAgICAgICAgICAgICAjIFNoYXJlZCBKUzogTGVuaXMgc21vb3RoIHNjcm9sbCwgbmF2YmFyLArilIIgICDilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAjICAgc2Nyb2xsIHByb2dyZXNzLCBmYWRlLWlucywgbW9iaWxlIG5hdiwgZHJhZy1zY3JvbGwK4pSCICAg4pSU4pSA4pSAIGhlcm8uanMgICAgICAgICAgICAgICAgICMgSG9tZXBhZ2UgaGVybzogM0QgY2hhcmFjdGVyIHRpbHQgKyBwYXJ0aWNsZXMK4pSc4pSA4pSAIGFzc2V0cy8K4pSCICAg4pSc4pSA4pSAIEJyYW5kcmVzb3VyY2VzLwrilIIgICDilIIgICDilJzilIDilIAgTG9nby8gICAgICAgICAgICAgICAjIENPUlRWRVgtTE9HTy1URXhULnBuZywgbG9nby13aXRoLW5vLWJnLnBuZwrilIIgICDilIIgICDilJzilIDilIAgQnJhbmRDaGFyYWN0ZXIvICAgICAjIEhlcm8gY2hhcmFjdGVyIHJlbmRlcnMgKG5vLWJnIFBOR3MpCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBGb250LyAgICAgICAgICAgICAgICMgbW9rb3RvLnJlZ3VsYXIudHRmIChkaXNwbGF5IGZvbnQpCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCBCcmFuZEd1aWRlbGluZUJvb2sucGRmCuKUgiAgIOKUlOKUgOKUgCBCcmFuZHdlYnJlc291cmNlcy8K4pSCICAgICAgIOKUnOKUgOKUgCBBYm91dFNlY3Rpb25QYWdlRGVzaWduLnN2ZwrilIIgICAgICAg4pSU4pSA4pSAIEZhbWlseU1lbWJlcnNUZWFtLyAgIyBIZWFkLmpwZWcK4pSCICAgICAgIOKUlOKUgOKUgCBJbnNwaXJhdGlvbi8gICAgICAgICMgRGVzaWduIHJlZmVyZW5jZXMgKyBoZXJvIHByb21wdCB0ZXh0CuKUlOKUgOKUgCAuYWdlbnRzL3NraWxscy8gICAgICAgICAgICAgIyBEZXNpZ24vYnJhbmRpbmcgc2tpbGwgbm90ZXMgdXNlZCBkdXJpbmcgYnVpbGQKYGBgCgojIyDwn5qAIEhvdyB0byBSdW4KClRoaXMgaXMgYSBzdGF0aWMgc2l0ZSDigJQgdGhlcmUgaXMgbm8gc2VydmVyIG9yIGJ1aWxkIHJlcXVpcmVkLgoKKipPcHRpb24gMSDigJQgb3BlbiBkaXJlY3RseToqKgpPcGVuIGBpbmRleC5odG1sYCBpbiBhbnkgbW9kZXJuIGJyb3dzZXIuCgoqKk9wdGlvbiAyIOKAlCBzZXJ2ZSBsb2NhbGx5IChyZWNvbW1lbmRlZCwgc28gdGhlIENETiBzbW9vdGgtc2Nyb2xsIHNjcmlwdCBsb2FkcyBjbGVhbmx5KToqKgoKYGBgYmFzaAojIGZyb20gdGhlIHByb2plY3Qgcm9vdApweXRob24zIC1tIGh0dHAuc2VydmVyIDgwMDAKIyB0aGVuIHZpc2l0IGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMApgYGAKCk5vdGU6IHRoZSBzbW9vdGgtc2Nyb2xsIChMZW5pcykgbGlicmFyeSBsb2FkcyBmcm9tIGEgQ0ROLCBzbyBhbiBpbnRlcm5ldCBjb25uZWN0aW9uIGlzIG5lZWRlZCBmb3IgdGhhdCBlZmZlY3QuIEV2ZXJ5dGhpbmcgZWxzZSB3b3JrcyBvZmZsaW5lLgoKIyMg8J+ThCBQYWdlcyBPdmVydmlldwoKfCBQYWdlIHwgRmlsZSB8IENvbnRlbnRzIHwKfC0tLXwtLS18LS0tfAp8IEhvbWUgfCBgaW5kZXguaHRtbGAgfCBBbmltYXRlZCBoZXJvICgzRC10aWx0IGNoYXJhY3RlciArIHBhcnRpY2xlcyArIHdvcmQgY3ljbGVyKSwgc3RhdHMvc29jaWFsIHByb29mLCBwcm9ibGVtIHN0YXRlbWVudCwgYWJvdXQgc2VjdGlvbiwgc2VydmljZXMgb3ZlcnZpZXcsICJIb3cgV2UgV29yayIgNC1zdGVwIHByb2Nlc3MsIGVtYWlsIENUQSBzdHJpcCB8CnwgU2VydmljZXMgfCBgc2VydmljZXMuaHRtbGAgfCBGb3VyIGRldGFpbGVkIHNlcnZpY2UgY2FyZHMgKFdlYiBEZXYsIEJyYW5kaW5nLCBBSSBBdXRvbWF0aW9uLCBTb2NpYWwgTWVkaWEpIHdpdGggZmVhdHVyZSBsaXN0cywgYmVmb3JlL2FmdGVyIGNvbXBhcmlzb24gdGFibGUsIENUQSB8CnwgQ29udGFjdCB8IGBjb250YWN0Lmh0bWxgIHwgRnVsbCBjb250YWN0L2Jvb2tpbmcgZm9ybSAoYnVzaW5lc3MtdHlwZSAmIHNlcnZpY2UgZHJvcGRvd25zKSwgaW5mbyBjYXJkcyAoZW1haWwsIHJlc3BvbnNlIHRpbWUsIGxvY2F0aW9uLCBzb2NpYWxzKSwgIndoYXQgaGFwcGVucyBuZXh0IiBzZWN0aW9uIHwKCiMjIPCfp5HigI3wn5K7IEF1dGhvcgoKKipIYXNzYW4gQWJiYXNpKiog4oCUIEdyYXBoaWMgRGVzaWduZXIgJiBBSSBFbmdpbmVlci4KSGFuZC1jb2RlZCB3aXRoIEhUTUwsIENTUywgYW5kIHZhbmlsbGEgSmF2YVNjcmlwdC4KCi0tLQoKKkZlZWwgZnJlZSB0byBmb3JrIGFuZCBhZGFwdCB0aGUgZGVzaWduLiBUaGUgQ09SVFZFWCBicmFuZCBhc3NldHMgKGxvZ28sIGNoYXJhY3RlciBhcnQsIGd1aWRlbGluZSBib29rKSBhcmUgaW5jbHVkZWQgaW4gdGhpcyByZXBvIGZvciBwcmVzZW50YXRpb24gcHVycG9zZXMuKgo=
+# CORTVEX — Digital Agency Website
+
+A hand-built, multi-page static website for **CORTVEX**, a fictional digital agency that designs and builds modern, high-converting websites, brands, AI automation, and social media management for businesses.
+
+This project was created to practice real-world agency web design: responsive layouts, smooth scroll motion, scroll-triggered animations, an interactive animated hero, and conversion-focused page structure — all with plain HTML, CSS, and vanilla JavaScript (no frameworks).
+
+## ✨ Features
+
+- **Multi-page site** — Home (`index.html`), Services (`services.html`), and Contact (`contact.html`), with a shared navbar, mobile menu, and footer across all pages.
+- **Interactive animated hero** — the brand character image tilts in 3D following the mouse (lerped for smoothness), floating canvas particles render behind it, and a rotating word-cycler headline keeps the hero alive.
+- **Buttery smooth scrolling** — Lenis smooth-scroll (loaded via CDN) with a custom easing curve.
+- **Scroll-triggered animations** — IntersectionObserver-powered fade-up reveals with staggered delays on every section.
+- **Scroll progress bar** — thin progress indicator at the top of every page.
+- **Mobile responsive** — hamburger menu with a slide-in mobile nav; mobile-first layouts throughout.
+- **Drag-to-scroll sections** — horizontal drag scrolling on selected content strips.
+- **Conversion sections** — problem/agitate hero, social-proof stats, services overview, "How We Work" process section, and a quick CTA email form on the homepage.
+- **Before / After comparison** — Services page shows a "Before vs After CORTVEX" transformation table.
+- **Detailed service cards** — four full service breakdowns (Web Design & Development, Branding & Visual Identity, AI Automation & Chatbots, Social Media Management), each with a feature list and badge.
+- **Full contact form** — name, email, business name, business-type dropdown, service dropdown, message textarea, plus info cards (email, response time, location, socials) and a "What happens next" section.
+- **Accessibility basics** — semantic HTML5, `aria-label` / `aria-labelledby` landmarks, screen-reader-only text, keyboard-focusable mobile menu, and `alt` text on every image.
+- **SEO basics** — unique `<title>` and `<meta name="description">` per page, favicon, and semantic heading structure.
+- **Brand assets included** — custom logo, brand character renders, the Mokoto display font, a brand guideline book (PDF), and UI inspiration references.
+- **Inline SVG iconography** — custom line icons for every service card and social link; no icon-font dependency.
+
+## 🛠 Tech Stack
+
+- **HTML5** — semantic structure, 3 pages
+- **CSS3** — custom stylesheets (shared `style.css` + one per page: `home.css`, `services.css`, `contact.css`); flexbox/grid, CSS animations, custom properties
+- **Vanilla JavaScript (ES6)** — `js/main.js` (Lenis, navbar, scroll progress, fade-ins, mobile nav, drag-scroll) and `js/hero.js` (3D tilt + canvas particles)
+- **Lenis** (CDN) — smooth scrolling: `@studio-freight/lenis@1.0.42`
+- **Brand assets** — custom PNG logo, brand character art, Mokoto `.ttf` display font
+
+No build step, no dependencies to install.
+
+## 📁 Project Structure
+
+```
+Cortvex-web-HassanAbbasi/
+├── index.html                  # Homepage — hero, social proof, problem, about,
+│                               #   services overview, process, CTA strip
+├── services.html               # Services — 4 detailed service cards,
+│                               #   before/after comparison, CTA
+├── contact.html                # Contact — contact form, info cards, next-steps
+├── css/
+│   ├── style.css               # Shared styles: navbar, footer, buttons, utilities
+│   ├── home.css                # Homepage-specific styles
+│   ├── services.css            # Services-page styles
+│   └── contact.css             # Contact-page styles
+├── js/
+│   ├── main.js                 # Shared JS: Lenis smooth scroll, navbar,
+│   │                           #   scroll progress, fade-ins, mobile nav, drag-scroll
+│   └── hero.js                 # Homepage hero: 3D character tilt + particles
+├── assets/
+│   ├── Brandresources/
+│   │   ├── Logo/               # CORTVEX-LOGO-TExT.png, logo-with-no-bg.png
+│   │   ├── BrandCharacter/     # Hero character renders (no-bg PNGs)
+│   │   ├── Font/               # mokoto.regular.ttf (display font)
+│   │   └── BrandGuidelineBook.pdf
+│   └── Brandwebresources/
+│       ├── AboutSectionPageDesign.svg
+│       └── FamilyMembersTeam/  # Head.jpeg
+│       └── Inspiration/        # Design references + hero prompt text
+└── .agents/skills/             # Design/branding skill notes used during build
+```
+
+## 🚀 How to Run
+
+This is a static site — there is no server or build required.
+
+**Option 1 — open directly:**
+Open `index.html` in any modern browser.
+
+**Option 2 — serve locally (recommended, so the CDN smooth-scroll script loads cleanly):**
+
+```bash
+# from the project root
+python3 -m http.server 8000
+# then visit http://localhost:8000
+```
+
+Note: the smooth-scroll (Lenis) library loads from a CDN, so an internet connection is needed for that effect. Everything else works offline.
+
+## 📄 Pages Overview
+
+| Page | File | Contents |
+|---|---|---|
+| Home | `index.html` | Animated hero (3D-tilt character + particles + word cycler), stats/social proof, problem statement, about section, services overview, "How We Work" 4-step process, email CTA strip |
+| Services | `services.html` | Four detailed service cards (Web Dev, Branding, AI Automation, Social Media) with feature lists, before/after comparison table, CTA |
+| Contact | `contact.html` | Full contact/booking form (business-type & service dropdowns), info cards (email, response time, location, socials), "what happens next" section |
+
+## 🧑‍💻 Author
+
+**Hassan Abbasi** — Graphic Designer & AI Engineer.
+Hand-coded with HTML, CSS, and vanilla JavaScript.
+
+---
+
+*Feel free to fork and adapt the design. The CORTVEX brand assets (logo, character art, guideline book) are included in this repo for presentation purposes.*
