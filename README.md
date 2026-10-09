@@ -4,6 +4,20 @@ A hand-built, multi-page static website for **CORTVEX**, a fictional digital age
 
 This project was created to practice real-world agency web design: responsive layouts, smooth scroll motion, scroll-triggered animations, an interactive animated hero, and conversion-focused page structure — all with plain HTML, CSS, and vanilla JavaScript (no frameworks).
 
+## 📸 Screenshots
+
+**Home** — animated hero, problem cards, services overview, process, CTA:
+
+![Homepage screenshot](docs/screenshot-index.png)
+
+**Services** — four detailed service cards, before/after comparison:
+
+![Services page screenshot](docs/screenshot-services.png)
+
+**Contact** — contact form with info cards:
+
+![Contact page screenshot](docs/screenshot-contact.png)
+
 ## ✨ Features
 
 - **Multi-page site** — Home (`index.html`), Services (`services.html`), and Contact (`contact.html`), with a shared navbar, mobile menu, and footer across all pages.
